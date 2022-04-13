@@ -38,12 +38,19 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img class="" src="/assets/img/viajes.svg" alt="logo-viajes-chile">
-            Viajes Chile</a>
-        <button
+          <img
+            src="/assets/img/viajes.svg"
+            width="40"
+            height="40"
+            alt="logo-viajes-chile"
+          />
+          Viajes Chile</a>
+
+          <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -66,13 +73,193 @@
               <a class="nav-link" href="#">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Contacto</a>
+              <a class="nav-link">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- navbar, header ,seccion quienes, somos destacados, y contactos,footer -->
+
+    <header id="inicio">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="carousel1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="carousel2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="carousel3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <section class="pt-4 bg-black">
+      <div class="container">
+        <div class="text-center">
+          <h3 class="text-light mx-auto mb-4">¿Quiénes Somos?</h3>
+          <hr class="mb-4">
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-xl-4">
+            <div class="text-center bg-info">
+              <i class=" text-white fa-solid fa-plane"></i>
+            </div>
+            <div>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus eligendi modi eveniet dolor inventore id nesciunt
+                ducimus voluptate vel quibusdam est, vitae reiciendis tenetur
+                provident. Numquam quis in totam quae.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-4">
+            <div>
+              <p class="text-white">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus doloremque sed velit quisquam, error laudantium dolor
+                beatae totam est rerum doloribus qui veritatis nulla nesciunt,
+                voluptas eum exercitationem! Itaque, optio.
+              </p>
+            </div>
+
+            <div class="text-center bg-info">
+              <i class=" text-white fa-solid fa-mountain"></i>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-xl-4">
+            <div class="text-center bg-info">
+              <i class=" text-white fa-solid fa-route"></i>
+            </div>
+            <div>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati animi molestias eveniet nisi iure fugit dolor rerum
+                temporibus magnam tempore quos itaque modi perferendis ut,
+                nostrum voluptates facere, deserunt rem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section class="pt-5 mb-4 bg-black">
+        <div class=" text-center" >
+            <h3 class="text-white fw-bold mb-4" >Destacados</h3>
+            <hr class="mb-4">
+        </div>
+        <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card1.jpg" class="card-img-top" alt="card1">
+            <div class="text-white card-body bg-info">
+              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis aliquam quis fugit omnis laboriosam magni totam, ipsa nisi recusandae illum qui praesentium ea ut temporibus ducimus iure labore aliquid.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card2.jpg" class="card-img-top" alt="card2">
+            <div class="text-white card-body bg-info">
+              <h5 class="card-title">Consectetur adipisicing elit</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ullam laudantium a mollitia eaque, blanditiis illo provident ab harum itaque, quia porro quisquam! Ipsum alias ipsam perspiciatis omnis quibusdam adipisci?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card3.jpg" class="card-img-top" alt="card3">
+            <div class="text-white card-body bg-info">
+              <h5 class="card-title">Sed do elusmod tempor incidunt labore</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, laboriosam obcaecati commodi rem nisi iste cumque doloremque, autem dicta porro magni dolores consectetur eos velit. Temporibus sequi sapiente voluptatum quibusdam?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card4.jpg" class="card-img-top" alt="card4">
+            <div class="text-white card-body bg-info">
+              <h5 class="card-title">Ut enim ad minim veniam</h5>
+              <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae nihil temporibus laboriosam nostrum quos exercitationem eaque quam odit nesciunt velit libero neque similique quae, iste consectetur accusantium, nam corrupti nulla.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <section class=" bg-black">
+        <div class="text-white text-center"> 
+           <h3>Contacto</h3> 
+           <hr class="mb-4">
+        </div>
+        <div class="container">
+        <form class="container">
+            <div class="mb-3 text-white">
+              <label for="exampleInputText" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp">
+           
+            <div class="mb-3">
+              <label for="exampleInputText" class="form-label">Asunto</label>
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp">
+            </div>
+            <div class="mb-3 ">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </form>
+          <button class="mt-2" type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </section>
+        <footer class="bg-info ">
+            <div >
+            <h3>Viajes Chile</h3>
+            </div>
+        </footer>
+
+    <!-- navbar, header ,seccion quienes somos ,destacados, y contactos,footer -->
 
     <!-- popper -->
     <script
