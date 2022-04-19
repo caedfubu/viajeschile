@@ -1,6 +1,6 @@
-# Viajes Chilr
+# Viajes Chile
 
-_Acá va un párrafo que describa lo que es el proyecto_
+proyecto ambientado en mostrar algunas de las maravillas de chile de manera rapida y precisa
 
 ## Comenzando 🚀
 
